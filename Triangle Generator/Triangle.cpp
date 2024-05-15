@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-	int n; // resource reference idea from Youtube channel: Simply Coding
+	int n; 
 	cout << "Please enter a number between 3 and 25; any other number to terminate: ";
 	cin >> n;
 	while ((n >= 3) && (n <= 25))
@@ -44,7 +44,7 @@ int main()
 		}
 		cout << "\n";
 
-		for (int x = 1; x <= n; x++) // resource reference of this code from Youtube channel: Mazen Labs
+		for (int x = 1; x <= n; x++) 
 		{
 			for (int y = 1; y <= x; y++)
 			{
@@ -76,7 +76,7 @@ int main()
 			}
 			cout << "\n"; // bottom triangle
 
-		} // finished butterfly triangle 
+		} 
 
 		cout << "Please enter a number between 3 and 25; any other number to terminate: ";
 		cin >> n;
